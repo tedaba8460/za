@@ -5,7 +5,7 @@ on:
 
 jobs:
   run-ocr:
-    runs-on: chromeOS-latest
+    runs-on: Android-11
 
     steps:
       - name: Install Tailscale
