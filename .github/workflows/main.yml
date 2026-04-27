@@ -5,8 +5,7 @@ on:
 
 jobs:
   run-ocr:
-    runs-on: Android-11
-
+    runs-on: windows-2025-vs2026
     steps:
       - name: Install Tailscale
         run: |
